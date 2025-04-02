@@ -1,0 +1,4 @@
+examples\ExamplesTest.class
+examples\users\UsersRunner.class
+backend\BackendTest.class
+backend\users\UsersRunner.class

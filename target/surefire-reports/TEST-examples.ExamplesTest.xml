@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="examples.ExamplesTest" time="3.456" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\examen01\kbackend\target\test-classes;D:\examen01\kbackend\target\classes;C:\Users\MartiJM\.m2\repository\io\karatelabs\karate-junit5\1.5.0\karate-junit5-1.5.0.jar;C:\Users\MartiJM\.m2\repository\io\karatelabs\karate-core\1.5.0\karate-core-1.5.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\js\js-scriptengine\24.0.0\js-scriptengine-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\polyglot\polyglot\24.0.0\polyglot-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\sdk\collections\24.0.0\collections-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\sdk\nativeimage\24.0.0\nativeimage-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\sdk\word\24.0.0\word-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\js\js-language\24.0.0\js-language-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\regex\regex\24.0.0\regex-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\truffle\truffle-api\24.0.0\truffle-api-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\shadowed\icu4j\24.0.0\icu4j-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\MartiJM\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\MartiJM\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\MartiJM\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\MartiJM\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\MartiJM\.m2\repository\com\linecorp\armeria\armeria\1.29.2\armeria-1.29.2.jar;C:\Users\MartiJM\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\MartiJM\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\MartiJM\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\MartiJM\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.1\jackson-datatype-jdk8-2.17.1.jar;C:\Users\MartiJM\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.1\jackson-datatype-jsr310-2.17.1.jar;C:\Users\MartiJM\.m2\repository\io\micrometer\micrometer-core\1.13.0\micrometer-core-1.13.0.jar;C:\Users\MartiJM\.m2\repository\io\micrometer\micrometer-commons\1.13.0\micrometer-commons-1.13.0.jar;C:\Users\MartiJM\.m2\repository\io\micrometer\micrometer-observation\1.13.0\micrometer-observation-1.13.0.jar;C:\Users\MartiJM\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.1\HdrHistogram-2.2.1.jar;C:\Users\MartiJM\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport\4.1.110.Final\netty-transport-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-common\4.1.110.Final\netty-common-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-buffer\4.1.110.Final\netty-buffer-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-resolver\4.1.110.Final\netty-resolver-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-codec-haproxy\4.1.110.Final\netty-codec-haproxy-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-codec\4.1.110.Final\netty-codec-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-codec-http2\4.1.110.Final\netty-codec-http2-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-handler\4.1.110.Final\netty-handler-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-codec-http\4.1.110.Final\netty-codec-http-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-resolver-dns\4.1.110.Final\netty-resolver-dns-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-codec-dns\4.1.110.Final\netty-codec-dns-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-x86_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-aarch_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-x86_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-aarch_64.jar;C:\Users\MartiJM\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\MartiJM\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-handler-proxy\4.1.110.Final\netty-handler-proxy-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-codec-socks\4.1.110.Final\netty-codec-socks-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.110.Final\netty-transport-classes-epoll-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-aarch_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.110.Final\netty-transport-classes-kqueue-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-x86_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.110.Final\netty-resolver-dns-classes-macos-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-aarch_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-aarch_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-tcnative-classes\2.0.65.Final\netty-tcnative-classes-2.0.65.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar;C:\Users\MartiJM\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.16.0\brotli4j-1.16.0.jar;C:\Users\MartiJM\.m2\repository\com\aayushatharva\brotli4j\service\1.16.0\service-1.16.0.jar;C:\Users\MartiJM\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.16.0\native-windows-x86_64-1.16.0.jar;C:\Users\MartiJM\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\MartiJM\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\MartiJM\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\MartiJM\.m2\repository\ch\qos\logback\logback-classic\1.5.4\logback-classic-1.5.4.jar;C:\Users\MartiJM\.m2\repository\ch\qos\logback\logback-core\1.5.4\logback-core-1.5.4.jar;C:\Users\MartiJM\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.12\jcl-over-slf4j-2.0.12.jar;C:\Users\MartiJM\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\MartiJM\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\MartiJM\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\MartiJM\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\MartiJM\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\MartiJM\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\MartiJM\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\MartiJM\.m2\repository\de\siegmar\fastcsv\3.1.0\fastcsv-3.1.0.jar;C:\Users\MartiJM\.m2\repository\info\picocli\picocli\4.7.5\picocli-4.7.5.jar;C:\Users\MartiJM\.m2\repository\io\github\classgraph\classgraph\4.8.170\classgraph-4.8.170.jar;C:\Users\MartiJM\.m2\repository\io\github\t12y\resemble\1.1.0\resemble-1.1.0.jar;C:\Users\MartiJM\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\MartiJM\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\MartiJM\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\MartiJM\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\MartiJM\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\MartiJM\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\MartiJM\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Lima"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\MartiJM\AppData\Local\Temp\surefire17200513608117563628\surefirebooter-20250402080214038_3.jar C:\Users\MartiJM\AppData\Local\Temp\surefire17200513608117563628 2025-04-02T08-02-13_926-jvmRun1 surefire-20250402080214038_1tmp surefire_0-20250402080214038_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\examen01\kbackend\target\test-classes;D:\examen01\kbackend\target\classes;C:\Users\MartiJM\.m2\repository\io\karatelabs\karate-junit5\1.5.0\karate-junit5-1.5.0.jar;C:\Users\MartiJM\.m2\repository\io\karatelabs\karate-core\1.5.0\karate-core-1.5.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\js\js-scriptengine\24.0.0\js-scriptengine-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\polyglot\polyglot\24.0.0\polyglot-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\sdk\collections\24.0.0\collections-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\sdk\nativeimage\24.0.0\nativeimage-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\sdk\word\24.0.0\word-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\js\js-language\24.0.0\js-language-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\regex\regex\24.0.0\regex-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\truffle\truffle-api\24.0.0\truffle-api-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\graalvm\shadowed\icu4j\24.0.0\icu4j-24.0.0.jar;C:\Users\MartiJM\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\MartiJM\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\MartiJM\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\MartiJM\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\MartiJM\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\MartiJM\.m2\repository\com\linecorp\armeria\armeria\1.29.2\armeria-1.29.2.jar;C:\Users\MartiJM\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\MartiJM\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\MartiJM\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\MartiJM\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.1\jackson-datatype-jdk8-2.17.1.jar;C:\Users\MartiJM\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.1\jackson-datatype-jsr310-2.17.1.jar;C:\Users\MartiJM\.m2\repository\io\micrometer\micrometer-core\1.13.0\micrometer-core-1.13.0.jar;C:\Users\MartiJM\.m2\repository\io\micrometer\micrometer-commons\1.13.0\micrometer-commons-1.13.0.jar;C:\Users\MartiJM\.m2\repository\io\micrometer\micrometer-observation\1.13.0\micrometer-observation-1.13.0.jar;C:\Users\MartiJM\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.1\HdrHistogram-2.2.1.jar;C:\Users\MartiJM\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport\4.1.110.Final\netty-transport-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-common\4.1.110.Final\netty-common-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-buffer\4.1.110.Final\netty-buffer-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-resolver\4.1.110.Final\netty-resolver-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-codec-haproxy\4.1.110.Final\netty-codec-haproxy-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-codec\4.1.110.Final\netty-codec-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-codec-http2\4.1.110.Final\netty-codec-http2-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-handler\4.1.110.Final\netty-handler-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-codec-http\4.1.110.Final\netty-codec-http-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-resolver-dns\4.1.110.Final\netty-resolver-dns-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-codec-dns\4.1.110.Final\netty-codec-dns-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-x86_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-aarch_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-x86_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-aarch_64.jar;C:\Users\MartiJM\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\MartiJM\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-handler-proxy\4.1.110.Final\netty-handler-proxy-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-codec-socks\4.1.110.Final\netty-codec-socks-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.110.Final\netty-transport-classes-epoll-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-aarch_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.110.Final\netty-transport-classes-kqueue-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-x86_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.110.Final\netty-resolver-dns-classes-macos-4.1.110.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-aarch_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-aarch_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-tcnative-classes\2.0.65.Final\netty-tcnative-classes-2.0.65.Final.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar;C:\Users\MartiJM\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar;C:\Users\MartiJM\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.16.0\brotli4j-1.16.0.jar;C:\Users\MartiJM\.m2\repository\com\aayushatharva\brotli4j\service\1.16.0\service-1.16.0.jar;C:\Users\MartiJM\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.16.0\native-windows-x86_64-1.16.0.jar;C:\Users\MartiJM\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\MartiJM\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\MartiJM\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\MartiJM\.m2\repository\ch\qos\logback\logback-classic\1.5.4\logback-classic-1.5.4.jar;C:\Users\MartiJM\.m2\repository\ch\qos\logback\logback-core\1.5.4\logback-core-1.5.4.jar;C:\Users\MartiJM\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.12\jcl-over-slf4j-2.0.12.jar;C:\Users\MartiJM\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\MartiJM\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\MartiJM\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\MartiJM\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\MartiJM\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\MartiJM\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\MartiJM\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\MartiJM\.m2\repository\de\siegmar\fastcsv\3.1.0\fastcsv-3.1.0.jar;C:\Users\MartiJM\.m2\repository\info\picocli\picocli\4.7.5\picocli-4.7.5.jar;C:\Users\MartiJM\.m2\repository\io\github\classgraph\classgraph\4.8.170\classgraph-4.8.170.jar;C:\Users\MartiJM\.m2\repository\io\github\t12y\resemble\1.1.0\resemble-1.1.0.jar;C:\Users\MartiJM\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\MartiJM\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\MartiJM\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\MartiJM\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\MartiJM\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\MartiJM\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\MartiJM\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\MartiJM"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-03-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\examen01\kbackend"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\MartiJM\AppData\Local\Temp\surefire17200513608117563628\surefirebooter-20250402080214038_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24+36-3646"/>
+    <property name="user.name" value="MartiJM"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\MartiJM\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MartiJM\AppData\Local\Temp\"/>
+    <property name="java.version" value="24"/>
+    <property name="user.dir" value="D:\examen01\kbackend"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Users\MartiJM\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\PuTTY\;D:\INSTALACIONES\apache-maven-3.9.9\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\MartiJM\AppData\Local\Microsoft\WindowsApps;C:\Users\MartiJM\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\MartiJM\AppData\Roaming\npm;C:\Users\MartiJM\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\MartiJM\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24+36-3646"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testParallel" classname="examples.ExamplesTest" time="3.454">
+    <system-out><![CDATA[08:02:19.399 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+08:02:19.402 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1743598939400
+08:02:19.419 [pool-4-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+08:02:19.421 [pool-4-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+08:02:19.422 [pool-4-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://serverest.dev/usuarios
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/24)
+1 > Accept-Encoding: gzip,deflate
+
+
+08:02:19.485 [pool-4-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://serverest.dev/usuarios
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 100
+1 > Host: serverest.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/24)
+1 > Accept-Encoding: gzip,deflate
+{"nome":"Jose Martin FG","email":"josemartinfg@qa.com.br","password":"teste","administrador":"true"}
+
+08:02:20.465 [pool-4-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 979
+1 < 201
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: c72f1e361f44cf0f7a9231e8a442357b
+1 < date: Wed, 02 Apr 2025 13:02:20 GMT
+1 < server: Google Frontend
+1 < Content-Length: 82
+{
+    "message": "Cadastro realizado com sucesso",
+    "_id": "NXrvfFldCGgLk9Xx"
+}
+
+08:02:20.473 [pool-4-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1050
+1 < 200
+1 < access-control-allow-origin: *
+1 < x-dns-prefetch-control: off
+1 < x-frame-options: SAMEORIGIN
+1 < strict-transport-security: max-age=15552000; includeSubDomains
+1 < x-download-options: noopen
+1 < x-content-type-options: nosniff
+1 < x-xss-protection: 1; mode=block
+1 < content-type: application/json; charset=utf-8
+1 < x-cloud-trace-context: 7252815cd84e95f7ca0926eb2089b0db
+1 < date: Wed, 02 Apr 2025 13:02:20 GMT
+1 < server: Google Frontend
+1 < Content-Length: 24808
+{
+    "quantidade": 112,
+    "usuarios": [
+        {
+            "nome": "Fulano da Silva",
+            "email": "fulano@qa.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "0uxuPY0cbmQhpEz1"
+        },
+        {
+            "nome": "Sherry Harris",
+            "email": "Sherry_Harris@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "1pRMlDTlQwWMlJJU"
+        },
+        {
+            "nome": "Douglas Turner",
+            "email": "Douglas_Turner@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "2gt4WFmd6h4MYulk"
+        },
+        {
+            "nome": "Scott Bass",
+            "email": "Scott_Bass@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "3Wwb1hpbfah3Cw1b"
+        },
+        {
+            "nome": "Linda Knapp",
+            "email": "Linda_Knapp@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "4p1giPpoqlcceSXi"
+        },
+        {
+            "nome": "Tracy Holden",
+            "email": "Tracy_Holden@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "5ryCUj2PzOvI6Cjf"
+        },
+        {
+            "nome": "Deborah Lyons",
+            "email": "Deborah_Lyons@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "7Bs9uLnT45AAqnHz"
+        },
+        {
+            "nome": "Eric Richmond",
+            "email": "westjennifer@example.net",
+            "password": "3J3R8rNiP*",
+            "administrador": "true",
+            "_id": "9TbaRk1xgguIO1iF"
+        },
+        {
+            "nome": "Jennifer Ford",
+            "email": "Jennifer_Ford@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "9gCS1DaiiRFavccN"
+        },
+        {
+            "nome": "Gregory Gaines",
+            "email": "Gregory_Gaines@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "9kp5oPy62gTICrZq"
+        },
+        {
+            "nome": "Craig Johnston V",
+            "email": "craigjohnstonv@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "AEAcJe1h7zpq2yYm"
+        },
+        {
+            "nome": "Lavina",
+            "email": "malvina.kuphal@hotmail.com",
+            "password": "rt52xgdisnx96u",
+            "administrador": "true",
+            "_id": "AaDcaGYiuIRcmJ83"
+        },
+        {
+            "nome": "Sandra Nelson",
+            "email": "Sandra_Nelson@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AlpHjJadqa9Nigi3"
+        },
+        {
+            "nome": "Timothy Lee",
+            "email": "Timothy_Lee@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "AqibIRlWMS7Ya6tR"
+        },
+        {
+            "nome": "Bianca Nichols",
+            "email": "Bianca_Nichols@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "BOhnhKUOz1CcrD2L"
+        },
+        {
+            "nome": "Mayara Fernandes",
+            "email": "fmoore@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Bhv6eYQaLJiiQCcB"
+        },
+        {
+            "nome": "Candice DuBuque",
+            "email": "charleneschimmeli@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "C10rJGcASVFxLV27"
+        },
+        {
+            "nome": "William Horton",
+            "email": "William_Horton@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "EX7NMSte1ooW5Zd7"
+        },
+        {
+            "nome": "Jose Martin FG",
+            "email": "nadie1234@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "EqzUhUNNsPMN3zrB"
+        },
+        {
+            "nome": "Fulano da Silva",
+            "email": "beltrano@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "Ex4KCliTMCsdhNH9"
+        },
+        {
+            "nome": "Brian Robertson",
+            "email": "Brian_Robertson@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "FVDW3kp1qfofNYId"
+        },
+        {
+            "nome": "Juan Bauch",
+            "email": "juanbauch@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "G3SCJqgf98DRlYFZ"
+        },
+        {
+            "nome": "Parker Flores",
+            "email": "Parker_Flores@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Hrabs7YT0oxp6E4P"
+        },
+        {
+            "nome": "Mrs. Katherine Carr",
+            "email": "Mrs._Katherine_Carr@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "I94V7veVwVGNrPca"
+        },
+        {
+            "nome": "Rodney Key",
+            "email": "Rodney_Key@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IEJwYS05q5Rt5XRi"
+        },
+        {
+            "nome": "Colleen Ramos",
+            "email": "Colleen_Ramos@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "IINAZEgF2AIid64H"
+        },
+        {
+            "nome": "Jose Martin FG",
+            "email": "nadie12388456@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "JVok2d3nuMkcD3A7"
+        },
+        {
+            "nome": "Jose Martin FG",
+            "email": "josefg@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "Jnunyhvv5ZDMjnDE"
+        },
+        {
+            "nome": "Kristin Jones",
+            "email": "Kristin_Jones@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Jwb89ff94PTpq08X"
+        },
+        {
+            "nome": "Meghan Sparks",
+            "email": "Meghan_Sparks@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "KgOpL7gz0dxo6lf5"
+        },
+        {
+            "nome": "Mayara Fernandes",
+            "email": "richardallen@example.org",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Kv7Rv9uZIkroCQZ2"
+        },
+        {
+            "nome": "Cameron Bishop",
+            "email": "bradleywebb@example.com",
+            "password": "sG)S0QPddt",
+            "administrador": "true",
+            "_id": "MKpw6RfOt3O7Kang"
+        },
+        {
+            "nome": "Christopher Rodriguez",
+            "email": "Christopher_Rodriguez@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "OFfArEAbNDldaf3U"
+        },
+        {
+            "nome": "Mayara Fernandes",
+            "email": "taylor23@example.net",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Pke0LZrwQk0SUMUo"
+        },
+        {
+            "nome": "Tammy Fry",
+            "email": "Tammy_Fry@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "PpRYQyWFbwpQL1he"
+        },
+        {
+            "nome": "Mary Hester",
+            "email": "Mary_Hester@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "PtC4TTPYZpXimrsU"
+        },
+        {
+            "nome": "Inexistente",
+            "email": "inexistente@qa.com",
+            "password": "123",
+            "administrador": "false",
+            "_id": "QCX7ELcVaftR9hLF"
+        },
+        {
+            "nome": "Michael Castillo",
+            "email": "Michael_Castillo@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "QNngvZwkyMxEbI7N"
+        },
+        {
+            "nome": "Gregory Brown MD",
+            "email": "Gregory_Brown_MD@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Rw2Q1vsTswRwBqPL"
+        },
+        {
+            "nome": "Diana Byrd",
+            "email": "Diana_Byrd@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "SXQqscqtmU5jYDwL"
+        },
+        {
+            "nome": "John Gallagher",
+            "email": "John_Gallagher@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Sa9jJ2hECv7LsGp6"
+        },
+        {
+            "nome": "Juliana",
+            "email": "testetesteteste@mail.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "SseRxnRDAJTEHhBd"
+        },
+        {
+            "nome": "Matthew Walker",
+            "email": "anthony98@example.net",
+            "password": "@4B0Eu%nmQ",
+            "administrador": "true",
+            "_id": "Swhvdr9ivhwkhTIt"
+        },
+        {
+            "nome": "Mayara Fernandes",
+            "email": "bturner@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TDJBv5h6EHOwJxdM"
+        },
+        {
+            "nome": "Elizabeth Rose",
+            "email": "Elizabeth_Rose@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TFlWdomQTk5Htr7K"
+        },
+        {
+            "nome": "Larry Duncan",
+            "email": "Larry_Duncan@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "TlJbwFKQ9PydQOCi"
+        },
+        {
+            "nome": "Mayara Fernandes",
+            "email": "treynolds@example.org",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "U6Ifhko8gHnYyXgP"
+        },
+        {
+            "nome": "Jose Martin FG",
+            "email": "nadie123456@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "UDGvkx54XYTwmNsM"
+        },
+        {
+            "nome": "Cathy Petersen",
+            "email": "Cathy_Petersen@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "UpkjceHLpg3B8H49"
+        },
+        {
+            "nome": "Jennifer Levy",
+            "email": "Jennifer_Levy@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "VOVVT57w11ZYNR1W"
+        },
+        {
+            "nome": "Blanca Howe",
+            "email": "blancahowe@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "VpZte2tBpzs6ZBNN"
+        },
+        {
+            "nome": "Stefanie Guerra",
+            "email": "Stefanie_Guerra@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "VrISZBzpyDQW3X8e"
+        },
+        {
+            "nome": "Juliana",
+            "email": "testetestetest@email.com",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "W8W0BeFE74YbogsG"
+        },
+        {
+            "nome": "Caitlyn Adams",
+            "email": "Caitlyn_Adams@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "X4lcMvmCjbbQmME2"
+        },
+        {
+            "nome": "Daniel White",
+            "email": "Daniel_White@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "XXqLd1xYzyIXVuGm"
+        },
+        {
+            "nome": "Tara Reed",
+            "email": "Tara_Reed@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "YL0AWD6bghODWraJ"
+        },
+        {
+            "nome": "Cody Snyder",
+            "email": "Cody_Snyder@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "Z4ucKQJOp7uQEWQ2"
+        },
+        {
+            "nome": "Beth Mahoney",
+            "email": "Beth_Mahoney@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "a4YlMbT4aWHLyS4g"
+        },
+        {
+            "nome": "Jason Reed",
+            "email": "Jason_Reed@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "b0l6cWBBtwAcabnm"
+        },
+        {
+            "nome": "Anne Garcia",
+            "email": "Anne_Garcia@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "bGMtAneohNZvaxKy"
+        },
+        {
+            "nome": "Mayara Fernandes",
+            "email": "wwilliams@example.net",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "c60eXEc6cBAeTMe0"
+        },
+        {
+            "nome": "Tracy Torres",
+            "email": "Tracy_Torres@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "cNK9Eb1kq39EsbHM"
+        },
+        {
+            "nome": "Ignacio",
+            "email": "alethia.cruickshank@gmail.com",
+            "password": "n4j6ouo62udkptw",
+            "administrador": "true",
+            "_id": "dNRx2I44wCpo5Scg"
+        },
+        {
+            "nome": "Mayara Fernandes",
+            "email": "tpowers@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dWfPdDYSCFU21T1e"
+        },
+        {
+            "nome": "Richard Parrish MD",
+            "email": "Richard_Parrish_MD@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "dtMi6eINBsRAL5ay"
+        },
+        {
+            "nome": "Alexie_Wintheiser",
+            "email": "Emory2@hotmail.com",
+            "password": "748630871",
+            "administrador": "true",
+            "_id": "fTfJ4DJW9tu451an"
+        },
+        {
+            "nome": "Mayara Fernandes",
+            "email": "rogerspatricia@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "fulwKZTcv1obThMw"
+        },
+        {
+            "nome": "Eric Rodriguez",
+            "email": "Eric_Rodriguez@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "gAFVcf13wWtgTVsg"
+        },
+        {
+            "nome": "Alicia Nguyen",
+            "email": "Alicia_Nguyen@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ga3UQWsoKH64zTY0"
+        },
+        {
+            "nome": "Nicole Garcia",
+            "email": "Nicole_Garcia@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "h6bItqDeLvzAcbsc"
+        },
+        {
+            "nome": "Mayara Fernandes",
+            "email": "smithamy@example.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "haYDbweqz0eQvgWJ"
+        },
+        {
+            "nome": "testeWinnin",
+            "email": "testeWinnin@teste.com",
+            "password": "Winnin123",
+            "administrador": "false",
+            "_id": "huZEeVkc9jdOoJmP"
+        },
+        {
+            "nome": "Jose Martin FG",
+            "email": "josemartin@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "i3Vg0Fxbj3S0aJqt"
+        },
+        {
+            "nome": "Mayara Fernandes",
+            "email": "hinesvanessa@example.net",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "i9MtO2bloQ08kYkt"
+        },
+        {
+            "nome": "Wanda Roberts",
+            "email": "Wanda_Roberts@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "iCqDXp3TFkWUdqng"
+        },
+        {
+            "nome": "Andrea Silva",
+            "email": "Andrea_Silva@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "iE2Ay4ilIw8vnrGE"
+        },
+        {
+            "nome": "Mayara Fernandes",
+            "email": "mgrimes@example.org",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "irHtpR3MuUo8yNow"
+        },
+        {
+            "nome": "Jose Martin FG",
+            "email": "nadie12345@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "jKegvu2Kt2fXNXyi"
+        },
+        {
+            "nome": "Bryan Macias",
+            "email": "Bryan_Macias@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jLHqSqdxHfVJyYOs"
+        },
+        {
+            "nome": "Julie Young",
+            "email": "Julie_Young@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "jUDUEzb7OwXy5u6Y"
+        },
+        {
+            "nome": "Devin Brown",
+            "email": "Devin_Brown@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "kdLHssi9x6MuA5uj"
+        },
+        {
+            "nome": "Jose Hess",
+            "email": "Jose_Hess@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "kiUTafYAHgxgNiCa"
+        },
+        {
+            "nome": "Tamara Marks",
+            "email": "Tamara_Marks@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "kqIAF8h3sj4Ncmy3"
+        },
+        {
+            "nome": "Christine Smith",
+            "email": "Christine_Smith@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mcSKoFeKBtwINmGY"
+        },
+        {
+            "nome": "William Pearson",
+            "email": "William_Pearson@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "mfGrOy48SZThPS5u"
+        },
+        {
+            "nome": "Michelle Smith",
+            "email": "Michelle_Smith@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "nwSrl6LC1xOOkh92"
+        },
+        {
+            "nome": "Heather Miles",
+            "email": "Heather_Miles@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "okii9mVMxqPRb2qx"
+        },
+        {
+            "nome": "Crystal Cox",
+            "email": "Crystal_Cox@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "oxRgjmeneRFCEksC"
+        },
+        {
+            "nome": "Kristopher Farrell",
+            "email": "kristopherfarrell@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "pknjdfqOvsu2syGo"
+        },
+        {
+            "nome": "Brenda Beltran",
+            "email": "Brenda_Beltran@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "qohYKVNHhOkXMkOA"
+        },
+        {
+            "nome": "Stephanie Bauer",
+            "email": "Stephanie_Bauer@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rLETAmCpFn1oKIwn"
+        },
+        {
+            "nome": "William Gallagher",
+            "email": "William_Gallagher@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rLaLlkK5JWhqKeE5"
+        },
+        {
+            "nome": "Haley Lucero",
+            "email": "Haley_Lucero@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "rwGKmy6aVMoAufpJ"
+        },
+        {
+            "nome": "Zachary King",
+            "email": "Zachary_King@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "sOnfQhufyRmyUpA3"
+        },
+        {
+            "nome": "Angela Martin",
+            "email": "Angela_Martin@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "sRDYUtUXgf8VrUMx"
+        },
+        {
+            "nome": "Roger Powell",
+            "email": "Roger_Powell@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "tMW4fZnGYlogpYjX"
+        },
+        {
+            "nome": "Christopher White DDS",
+            "email": "Christopher_White_DDS@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "tQmDYIJrWREt8WVJ"
+        },
+        {
+            "nome": "Jose Martin FG",
+            "email": "josefg32@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "tfhgY5YNHTwopaQM"
+        },
+        {
+            "nome": "Kyle Baker",
+            "email": "Kyle_Baker@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "tzeRe9rvF7N9A204"
+        },
+        {
+            "nome": "Kimberly Cole",
+            "email": "kimberlycole@test.com",
+            "password": "Test;123",
+            "administrador": "false",
+            "_id": "u1ae4LMfPZw1g0p3"
+        },
+        {
+            "nome": "Jimmy Carpenter",
+            "email": "Jimmy_Carpenter@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uR1As2ECu2eMRiYX"
+        },
+        {
+            "nome": "Jason Duarte",
+            "email": "Jason_Duarte@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "uXU2OioBceA6Thcp"
+        },
+        {
+            "nome": "Michael Murphy",
+            "email": "kathryn95@example.org",
+            "password": "u8TJ1Lzw&k",
+            "administrador": "true",
+            "_id": "vA8zSJeibRm9tOti"
+        },
+        {
+            "nome": "Jessica Thomas",
+            "email": "Jessica_Thomas@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "vlgkxAdNUDdIVLrR"
+        },
+        {
+            "nome": "Olin.Botsford98",
+            "email": "Nelda.Koch@hotmail.com",
+            "password": "371849310",
+            "administrador": "true",
+            "_id": "vvaBecpOqVBIO5qf"
+        },
+        {
+            "nome": "Alexandra Stewart",
+            "email": "Alexandra_Stewart@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "wAluTfuEqGUy7qlb"
+        },
+        {
+            "nome": "Miss Cathy Patterson",
+            "email": "Miss_Cathy_Patterson@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "wEqnQcrJ67vVyfyc"
+        },
+        {
+            "nome": "Larry Copeland",
+            "email": "Larry_Copeland@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "wQsFEzAqHYouMfZ4"
+        },
+        {
+            "nome": "Jose Martin FG",
+            "email": "josefg3@qa.com.br",
+            "password": "teste",
+            "administrador": "true",
+            "_id": "xDbQcM8UYW1Sx7Qd"
+        },
+        {
+            "nome": "Ernestine Stroman",
+            "email": "ernestinestroman@test.com",
+            "password": "Test;123",
+            "administrador": "true",
+            "_id": "yniZt3Qa0yA5xQ3p"
+        },
+        {
+            "nome": "Mayara Fernandes",
+            "email": "berryjacob@example.net",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ypuL3IERVFSz4bLq"
+        },
+        {
+            "nome": "Michele Young",
+            "email": "Michele_Young@testeautomacao.com",
+            "password": "123456",
+            "administrador": "true",
+            "_id": "ziAP2hnRqDBNKBpu"
+        }
+    ]
+}
+
+08:02:20.479 [pool-4-thread-2] INFO  com.intuit.karate - [print] DATA OBTENIDA: NXrvfFldCGgLk9Xx 
+08:02:20.488 [pool-4-thread-2] DEBUG com.intuit.karate - request:
+2 > GET https://serverest.dev/usuarios/NXrvfFldCGgLk9Xx
+2 > Host: serverest.dev
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.14 (Java/24)
+2 > Accept-Encoding: gzip,deflate
+
+
+08:02:20.979 [pool-4-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 491
+2 < 200
+2 < access-control-allow-origin: *
+2 < x-dns-prefetch-control: off
+2 < x-frame-options: SAMEORIGIN
+2 < strict-transport-security: max-age=15552000; includeSubDomains
+2 < x-download-options: noopen
+2 < x-content-type-options: nosniff
+2 < x-xss-protection: 1; mode=block
+2 < content-type: application/json; charset=utf-8
+2 < x-cloud-trace-context: c6b5321f0cc583e0157a3e5ea5184906
+2 < date: Wed, 02 Apr 2025 13:02:21 GMT
+2 < server: Google Frontend
+2 < Content-Length: 156
+{
+    "nome": "Jose Martin FG",
+    "email": "josemartinfg@qa.com.br",
+    "password": "teste",
+    "administrador": "true",
+    "_id": "NXrvfFldCGgLk9Xx"
+}
+
+08:02:20.991 [pool-4-thread-2] DEBUG com.intuit.karate - request:
+3 > PUT https://serverest.dev/usuarios/NXrvfFldCGgLk9Xx
+3 > Content-Type: application/json; charset=UTF-8
+3 > Content-Length: 95
+3 > Host: serverest.dev
+3 > Connection: Keep-Alive
+3 > User-Agent: Apache-HttpClient/4.5.14 (Java/24)
+3 > Accept-Encoding: gzip,deflate
+{"nome":"Martin FG","email":"josemartinfg@qa.com.br","password":"teste","administrador":"true"}
+
+08:02:21.501 [pool-4-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 509
+3 < 200
+3 < access-control-allow-origin: *
+3 < x-dns-prefetch-control: off
+3 < x-frame-options: SAMEORIGIN
+3 < strict-transport-security: max-age=15552000; includeSubDomains
+3 < x-download-options: noopen
+3 < x-content-type-options: nosniff
+3 < x-xss-protection: 1; mode=block
+3 < content-type: application/json; charset=utf-8
+3 < x-cloud-trace-context: 12ac84c4893533ee5df37bb7b8d79e01
+3 < date: Wed, 02 Apr 2025 13:02:21 GMT
+3 < server: Google Frontend
+3 < Content-Length: 50
+{
+    "message": "Registro alterado com sucesso"
+}
+
+08:02:21.508 [pool-4-thread-2] DEBUG com.intuit.karate - request:
+4 > DELETE https://serverest.dev/usuarios/NXrvfFldCGgLk9Xx
+4 > Host: serverest.dev
+4 > Connection: Keep-Alive
+4 > User-Agent: Apache-HttpClient/4.5.14 (Java/24)
+4 > Accept-Encoding: gzip,deflate
+
+
+08:02:21.990 [pool-4-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 481
+4 < 200
+4 < access-control-allow-origin: *
+4 < x-dns-prefetch-control: off
+4 < x-frame-options: SAMEORIGIN
+4 < strict-transport-security: max-age=15552000; includeSubDomains
+4 < x-download-options: noopen
+4 < x-content-type-options: nosniff
+4 < x-xss-protection: 1; mode=block
+4 < content-type: application/json; charset=utf-8
+4 < x-cloud-trace-context: 25eed74d66464ae296765372e0ba7080
+4 < date: Wed, 02 Apr 2025 13:02:22 GMT
+4 < server: Google Frontend
+4 < Content-Length: 51
+{
+    "message": "Registro excluído com sucesso"
+}
+
+---------------------------------------------------------
+feature: classpath:examples/users/users.feature
+scenarios:  2 | passed:  2 | failed:  0 | time: 3,6228
+---------------------------------------------------------
+
+08:02:22.562 [pool-5-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:examples/users/users.feature
+Karate version: 1.5.0
+======================================================
+elapsed:   3,38 | threads:    5 | thread time: 3,62 
+features:     1 | skipped:    0 | efficiency: 0,21
+scenarios:    2 | passed:     2 | failed: 0
+======================================================
+
+HTML report: (paste into browser to view) | Karate version: 1.5.0
+file:///D:/examen01/kbackend/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>
